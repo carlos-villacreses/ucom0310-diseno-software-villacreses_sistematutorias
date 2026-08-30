@@ -30,7 +30,7 @@ Diseño de Software · UCOM0310 · PEL 4-2026 · UEES Online
 ## Instalación
 ```bash
 git clone https://github.com/carlos-villacreses/ucom0310-diseno-software-villacreses_sistematutorias.git
-cd REPOSITORIO
+cd ucom0310-diseno-software-villacreses_sistematutorias
 mvn clean test
 ```
 ## Ejecución
