@@ -8,6 +8,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Sistema de Gestion de tutorias" );
+        System.out.println( "Inicio del Sistema de Gestion de tutorias" );
+
+        
     }
 }
