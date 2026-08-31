@@ -9,11 +9,13 @@ README.md
 - **Estudiante:** CARLOS VILLACRESES
 - **Docente:** Ph.D. Jaime Paul Sayago Heredia
 ## Descripción
-Sistema de gestion de tutorias aplicando Diseño de software.
+Desarollo de un Sistema de gestion de tutorias aplicando Diseño de software.
+
 ## Objetivos
-- Objetivo 1.
-- Objetivo 2.
-- Objetivo 3.
+- Utilizar POO.
+- Aplicar conocimientos de Diseño de Software.
+- Crear un sistema escalable.
+- 
 ## Tecnologías
 - Java 21
 - Apache Maven 3.9.x
