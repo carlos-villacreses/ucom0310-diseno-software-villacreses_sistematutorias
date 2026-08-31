@@ -41,20 +41,92 @@ java -jar target/NOMBRE-DEL-ARCHIVO.jar
 Adapte los comandos de ejecución a la estructura real del proyecto.
 ## Estructura del proyecto
 ```text
-docs/
-src/
-├── main/
-│ └── java/
-└── test/
-│ └── java/
-java/ └──
-pom.xml
-README.md
+├── docs
+│   └── tutoring-uml-class-diagram (1).jpg
+├── pom.xml
+├── README.md
+├── sistema-tutorias.code-workspace
+├── src
+│   ├── main
+│   │   └── java
+│   │       └── com
+│   │           └── tutoring
+│   │               ├── exception
+│   │               │   ├── EntityNotFoundException.java
+│   │               │   └── ScheduleConflictException.java
+│   │               ├── Main.java
+│   │               ├── model
+│   │               │   ├── Course.java
+│   │               │   ├── Person.java
+│   │               │   ├── Session.java
+│   │               │   ├── SessionStatus.java
+│   │               │   ├── Student.java
+│   │               │   └── Tutor.java
+│   │               ├── repository
+│   │               │   ├── AbstractInMemoryRepository.java
+│   │               │   ├── CourseRepository.java
+│   │               │   ├── Repository.java
+│   │               │   ├── SessionRepository.java
+│   │               │   ├── StudentRepository.java
+│   │               │   └── TutorRepository.java
+│   │               └── service
+│   │                   └── TutoringService.java
+│   └── test
+│       └── java
+│           └── com
+│               └── tutoring
+│                   └── service
+│                       └── TutoringServiceTest.java
+└── target
+    ├── classes
+    │   └── com
+    │       └── tutoring
+    │           ├── exception
+    │           │   ├── EntityNotFoundException.class
+    │           │   └── ScheduleConflictException.class
+    │           ├── Main.class
+    │           ├── model
+    │           │   ├── Course.class
+    │           │   ├── Person.class
+    │           │   ├── Session.class
+    │           │   ├── SessionStatus.class
+    │           │   ├── Student.class
+    │           │   └── Tutor.class
+    │           ├── repository
+    │           │   ├── AbstractInMemoryRepository.class
+    │           │   ├── CourseRepository.class
+    │           │   ├── Repository.class
+    │           │   ├── SessionRepository.class
+    │           │   ├── StudentRepository.class
+    │           │   └── TutorRepository.class
+    │           └── service
+    │               └── TutoringService.class
+    ├── generated-sources
+    │   └── annotations
+    ├── generated-test-sources
+    │   └── test-annotations
+    ├── maven-status
+    │   └── maven-compiler-plugin
+    │       ├── compile
+    │       │   └── default-compile
+    │       │       ├── createdFiles.lst
+    │       │       └── inputFiles.lst
+    │       └── testCompile
+    │           └── default-testCompile
+    │               ├── createdFiles.lst
+    │               └── inputFiles.lst
+    ├── surefire-reports
+    │   ├── com.tutoring.service.TutoringServiceTest.txt
+    │   └── TEST-com.tutoring.service.TutoringServiceTest.xml
+    └── test-classes
+        └── com
+            └── tutoring
+                └── service
+                    └── TutoringServiceTest.class
+
 ```
 ## Funcionalidades
-- Funcionalidad implementada 1.
-- Funcionalidad implementada 2.
-- Funcionalidad pendiente.
+- Implementación SOLID.
 ## Pruebas
 Para ejecutar las pruebas:
 ```bash
@@ -67,13 +139,10 @@ mediante revisión.
 Diseño de Software · UCOM0310 · PEL 4-2026 · UEES Online
 
 ## Evidencias
-- Enlace a diagrama UML.
-- Evidencia de pruebas.
-- Reporte de cobertura.
-- Pull request o revisión de código.
+https://github.com/carlos-villacreses/ucom0310-diseno-software-villacreses_sistematutorias/blob/main/docs/tutoring-uml-class-diagram%20(1).jpg
+
 ## Uso de inteligencia artificial
-Indique si utilizó herramientas de inteligencia artificial, la herramienta empleada, el propósito y las partes
-revisadas o adaptadas. El estudiante es responsable de comprender, probar y justificar todo el contenido
-entregado.
+Se utilizó Claude Code para el desarrollo base de una aplicación java y posterior se adaptó el codigo implementando el aprendizaje de Diseño de Software.
+
 ## Autor
 CARLOS VILLACRESES - CARLOS.VILLACRESES@UEES.EDU.EC
